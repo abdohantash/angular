@@ -12,8 +12,11 @@ export class AppComponent implements OnInit {
     color: ["#8A74F9"],
     tooltip: {
       trigger: "axis",
+      backgroundColor: '#1E1B39',
+      borderRadius: 10,
       textStyle: {
-        fontFamily: 'Neo Sans Arabic'
+        fontFamily: 'Neo Sans Arabic',
+        color: '#fff',
       },
       axisPointer: {
         type: "line",

@@ -1,6 +1,9 @@
+/* import files */
 @import url(assets/css/normalize.css);
 @import url(assets/css/microtip.css);
 
+
+/* fonts */
 @font-face {
   font-family: 'Neo Sans Arabic';
   src: url(assets/fonts/NeoSansArabic.ttf);
@@ -19,6 +22,7 @@
   font-display: swap;
 }
 
+/* start css */
 ::-webkit-scrollbar {
   height: 6px;
   width: 7px;
@@ -118,8 +122,8 @@ select {
 }
 
 .ticket-page .header-part .title-page h3 {
-  font-size: 20px;
-  font-weight: normal;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .ticket-page .header-part .controls .edit-btn {
@@ -444,7 +448,7 @@ select {
   bottom: 3px;
   content: "";
   height: 16px;
-  left: 4px;
+  right: 4px;
   position: absolute;
   transition: .4s;
   width: 16px;
@@ -456,11 +460,12 @@ select {
 }
 
 .ticket-page .ticket-sales .filters-and-booking .ticket-status input:checked+.slider-btn:before {
-  transform: translateX(21px);
+  transform: translateX(-21px);
 }
 
 .ticket-page .ticket-sales .filters-and-booking .ticket-status .text-status {
   color: #9C9D9F;
+  font-size: 16px;
 }
 
 .ticket-page .ticket-sales .filters-and-booking .booking-btn {
@@ -555,7 +560,6 @@ select {
 
 .ticket-page .ticket-sales .table-tickets .user-details .circle-icon.bg-gray {
   background: #898E95;
-  ;
 }
 
 .ticket-page .ticket-sales .table-tickets .user-details .circle-icon span {
@@ -756,6 +760,8 @@ select {
 }
 
 /* responsive */
+
+/* Large devices (desktops, less than 1200px) */
 @media (max-width:1200px) {
   .ticket-page .chart-and-ticket {
     gap: 15px;
@@ -767,13 +773,14 @@ select {
   }
 }
 
+/* Medium devices (tablets, less than 992px) */
 @media (max-width:992px) {
   .ticket-page {
     padding: 25px;
   }
 
   .ticket-page .header-part .title-page h3 {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .table-responsive {
@@ -790,6 +797,8 @@ select {
   }
 }
 
+
+/* Small devices (landscape phones, less than 768px) */
 @media (max-width:768px) {
   .ticket-page {
     padding: 15px;
@@ -856,9 +865,11 @@ select {
 
 }
 
+
+/* Extra small devices (portrait phones, less than 576px) */
 @media (max-width:576px) {
   .ticket-page .header-part .title-page h3 {
-    font-size: 17px;
+    font-size: 16px;
   }
 
   .ticket-page .header-part .controls .edit-btn {
@@ -890,6 +901,7 @@ select {
   }
 }
 
+/* Mini devices (phones, less than 450px) */
 @media (max-width:450px) {
   .ticket-page .chart-and-ticket .ticket-box .ticket-link {
     width: 70%;
@@ -919,6 +931,7 @@ select {
   }
 }
 
+/* Extra Mini devices (phones, less than 375px) */
 @media (max-width:375px) {
   .ticket-page .chart-and-ticket .ticket-box {
     padding: 15px 5px;
@@ -965,7 +978,7 @@ select {
   }
 
   .ticket-page .header-part .title-page h3 {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .ticket-page .header-part .controls .edit-btn {

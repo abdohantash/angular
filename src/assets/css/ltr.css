@@ -62,26 +62,36 @@ body {
   left: auto !important;
 }
 
+.ticket-page .ticket-sales .filters-and-booking .ticket-status .slider-btn:before {
+  left: 4px;
+  right: auto !important;
+}
+
+.ticket-page .ticket-sales .filters-and-booking .ticket-status input:checked+.slider-btn:before {
+  transform: translateX(21px) !important;
+}
+
 @media (max-width: 768px) {
-.ticket-page .ticket-sales .filters-and-booking .search-filters {
+  .ticket-page .ticket-sales .filters-and-booking .search-filters {
     margin-left: 0 !important;
     margin-right: auto;
-}
-.ticket-page .ticket-sales .filters-and-booking .booking-btn {
-  left: auto !important;
-  right: 0;
-}
+  }
+
+  .ticket-page .ticket-sales .filters-and-booking .booking-btn {
+    left: auto !important;
+    right: 0;
+  }
 }
 
 @media (max-width: 450px) {
-.ticket-page .ticket-sales .filters-and-booking .ticket-status {
-  right: 0;
-  left: auto !important;
-}
+  .ticket-page .ticket-sales .filters-and-booking .ticket-status {
+    right: 0;
+    left: auto !important;
+  }
 }
 
 @media (max-width: 375px) {
   .ticket-page .chart-and-ticket .ticket-box .delete-ticket {
     right: 8px;
-}
   }
+}
