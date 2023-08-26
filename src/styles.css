@@ -4,16 +4,19 @@
 @font-face {
   font-family: 'Neo Sans Arabic';
   src: url(assets/fonts/NeoSansArabic.ttf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'montserrat';
   src: url(assets/fonts/montserrat.ttf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Inter';
   src: url(assets/fonts/Inter.ttf);
+  font-display: swap;
 }
 
 ::-webkit-scrollbar {
@@ -914,10 +917,6 @@ select {
     bottom: 6px;
     left: 0;
   }
-
-  [aria-label][role~="tooltip"]::after {
-    line-height: 18px;
-  }
 }
 
 @media (max-width:375px) {
@@ -926,6 +925,7 @@ select {
   }
 
   .ticket-page .chart-and-ticket .ticket-box .delete-ticket {
+    position: absolute;
     top: 8px;
     left: 8px;
   }
@@ -987,11 +987,5 @@ select {
   .ticket-page .pagination-list .page-item {
     width: 28px;
     height: 28px;
-  }
-
-  .ticket-page .ticket-sales .filters-and-booking .ticket-status .slider-btn:before {
-    bottom: 4px;
-    height: 15px;
-    width: 15px;
   }
 }

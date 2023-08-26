@@ -3,14 +3,14 @@
   <!-- header page -->
   <div class="header-part">
     <div class="title-page">
-      <a href="#" class="back-icon">
-        <img src="assets/img/icons/arrow-right.svg" alt="">
+      <a href="#" class="back-icon" aria-label="back">
+        <img width="14" height="14" src="assets/img/icons/arrow-right.svg" alt="">
       </a>
       <h3>تذكرة رقم #2342</h3>
     </div>
     <div class="controls">
       <button class="edit-btn">
-        <img src="assets/img/icons/edit.svg" alt="">
+        <img width="18" height="18" src="assets/img/icons/edit.svg" alt="">
         تعديل
       </button>
     </div>
@@ -23,10 +23,11 @@
       <div class="header-chart">
         <div class="title-chart">
           <h5>إحصائيات إستخدام القسيمة</h5>
-          <p>05 يوليو , 2023 - 05 أغسطس , 2023 <img src="assets/img/icons/arrow-down.svg" alt=""></p>
+          <p>05 يوليو , 2023 - 05 أغسطس , 2023 <img width="8" height="5" src="assets/img/icons/arrow-down.svg" alt="">
+          </p>
         </div>
         <div class="select-box">
-          <select class="select-custom">
+          <select class="select-custom" aria-label="statistics">
             <option value="">سنويا</option>
             <option value="">شهريا</option>
           </select>
@@ -39,7 +40,7 @@
     <!-- ticket box -->
     <div class="ticket-box">
       <button class="delete-ticket" aria-label="حذف" data-microtip-position="bottom" role="tooltip">
-        <img src="assets/img/icons/trash.svg" alt="">
+        <img width="22" height="22" src="assets/img/icons/trash.svg" alt="">
       </button>
       <div class="title-box">
         <h5>عرض التذكرة الخاصة بالفيلم</h5>
@@ -47,7 +48,7 @@
       <div class="ticket-link">
         <p>www.tazkty.com/473847</p>
         <button type="button" class="copy-ticket" aria-label="نسخ الرابط" data-microtip-position="top" role="tooltip">
-          <img src="assets/img/icons/copy.svg" alt="">
+          <img width="17" height="19" src="assets/img/icons/copy.svg" alt="">
         </button>
       </div>
       <span class="expiry-date">فعال حتي 15 يوليو 2023</span>
@@ -59,7 +60,7 @@
             <span>25%</span>
           </p>
           <button class="share-btn">
-            <img src="assets/img/icons/send.svg" alt="">
+            <img width="16" height="16" src="assets/img/icons/send.svg" alt="">
             مشاركة
           </button>
         </div>
@@ -79,10 +80,10 @@
           <input type="text" class="search-input" placeholder="بحث عن ...">
         </div>
         <button class="btn-filters" aria-label="تصنيف" data-microtip-position="top" role="tooltip">
-          <img src="assets/img/icons/setting.svg" alt="">
+          <img width="16" height="16" src="assets/img/icons/setting.svg" alt="">
         </button>
         <button class="btn-filters" aria-label="ترتيب" data-microtip-position="top" role="tooltip">
-          <img src="assets/img/icons/arrow.svg" alt="">
+          <img width="16" height="16" src="assets/img/icons/arrow.svg" alt="">
         </button>
       </div>
       <!-- status and booking -->
@@ -107,8 +108,8 @@
               <th>رقم التذكرة</th>
               <th>
                 قيمة التذكرة
-                <button class="sort-icon">
-                  <img src="assets/img/icons/arrow-sort.svg" alt="">
+                <button type="button" class="sort-icon">
+                  <img width="16" height="16" src="assets/img/icons/arrow-sort.svg" alt="">
                 </button>
               </th>
               <th>السينمات</th>
@@ -155,7 +156,7 @@
                       <span>9mb</span>
                     </p>
                   </div>
-                  <a href="#" download="" class="download-btn">
+                  <a href="#" download="" class="download-btn" aria-label="download">
                     <img src="assets/img/icons/download.svg" alt="">
                   </a>
                 </div>
@@ -196,7 +197,7 @@
                       <span>9mb</span>
                     </p>
                   </div>
-                  <a href="#" download="" class="download-btn">
+                  <a href="#" download="" class="download-btn" aria-label="download">
                     <img src="assets/img/icons/download.svg" alt="">
                   </a>
                 </div>
@@ -237,7 +238,7 @@
                       <span>9mb</span>
                     </p>
                   </div>
-                  <a href="#" download="" class="download-btn">
+                  <a href="#" download="" class="download-btn" aria-label="download">
                     <img src="assets/img/icons/download.svg" alt="">
                   </a>
                 </div>
@@ -280,7 +281,7 @@
                       <span>9mb</span>
                     </p>
                   </div>
-                  <a href="#" download="" class="download-btn">
+                  <a href="#" download="" class="download-btn" aria-label="download">
                     <img src="assets/img/icons/download.svg" alt="">
                   </a>
                 </div>
@@ -295,7 +296,7 @@
         <div class="view-rows">
           عرض
           <div class="select-box">
-            <select class="select-custom">
+            <select class="select-custom" aria-label="view">
               <option value="">20</option>
               <option value="">50</option>
               <option value="">100</option>
@@ -306,7 +307,8 @@
         <!-- pagination -->
         <ul class="pagination-list">
           <li class="page-item disabled">
-            <a href="#"><img src="assets/img/icons/arrows-chevron.svg" alt=""></a>
+            <a href="#" aria-label="prev page"><img width="7" height="11" src="assets/img/icons/arrows-chevron.svg"
+                alt=""></a>
           </li>
           <li class="page-item active">
             <a href="#">1</a>
@@ -324,7 +326,8 @@
             <a href="#">5</a>
           </li>
           <li class="page-item">
-            <a href="#"><img src="assets/img/icons/arrows-chevron.svg" alt=""></a>
+            <a href="#" aria-label="next page"><img width="7" height="11" src="assets/img/icons/arrows-chevron.svg"
+                alt=""></a>
           </li>
         </ul>
       </div>
