@@ -1,0 +1,87 @@
+body {
+  direction: ltr !important;
+}
+
+.ticket-page .header-part .title-page a img {
+  transform: rotateY(180deg);
+}
+
+.select-box .select-custom {
+  padding: 8px 30px 8px 10px !important;
+}
+
+.select-box::after {
+  left: auto !important;
+  right: 10px;
+}
+
+.ticket-page .ticket-sales .filters-and-booking .search-filters .search-box .search-input {
+  padding-right: 8px !important;
+  padding-left: 40px !important;
+}
+
+.ticket-page .ticket-sales .filters-and-booking .search-filters .search-box img {
+  right: auto !important;
+  left: 10px;
+}
+
+.ticket-page .ticket-sales .filters-and-booking .ticket-status {
+  margin-right: 0 !important;
+  margin-left: auto;
+}
+
+.ticket-page .ticket-sales .table-tickets th .sort-icon {
+  margin-left: 5px;
+  margin-right: 0 !important;
+}
+
+.ticket-page .ticket-sales .table-tickets .download-ticket .download-btn {
+  margin-left: 20px;
+  margin-right: 0 !important;
+}
+
+.ticket-page .view-and-pagination .view-rows .select-custom {
+  padding: 8px 5px 8px 28px !important;
+}
+
+.ticket-page .view-and-pagination .view-rows .select-box::after {
+  right: auto !important;
+  left: 10px !important;
+}
+
+.ticket-page .pagination-list .page-item:first-child img {
+  transform: unset !important;
+}
+
+.ticket-page .pagination-list .page-item:last-child img {
+  transform: rotateY(180deg) !important;
+}
+
+.ticket-page .chart-and-ticket .ticket-box .delete-ticket {
+  right: 20px;
+  left: auto !important;
+}
+
+@media (max-width: 768px) {
+.ticket-page .ticket-sales .filters-and-booking .search-filters {
+    margin-left: 0 !important;
+    margin-right: auto;
+}
+.ticket-page .ticket-sales .filters-and-booking .booking-btn {
+  left: auto !important;
+  right: 0;
+}
+}
+
+@media (max-width: 450px) {
+.ticket-page .ticket-sales .filters-and-booking .ticket-status {
+  right: 0;
+  left: auto !important;
+}
+}
+
+@media (max-width: 375px) {
+  .ticket-page .chart-and-ticket .ticket-box .delete-ticket {
+    right: 8px;
+}
+  }

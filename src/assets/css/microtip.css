@@ -47,7 +47,7 @@
   border-radius: 10px;
   color: #ffffff;
   content: attr(aria-label);
-  font-size: var(--microtip-font-size, 13px);
+  font-size: var(--microtip-font-size, 14px);
   font-weight: var(--microtip-font-weight, normal);
   text-transform: var(--microtip-text-transform, none);
   padding: .5em 1em;
@@ -138,7 +138,7 @@
 }
 
 [role~="tooltip"][data-microtip-position|="bottom"]::after {
-  margin-top: 11px;
+  margin-top: 10px;
 }
 
 [role~="tooltip"][data-microtip-position|="bottom"]::before {
@@ -210,7 +210,7 @@
 }
 
 [role~="tooltip"][data-microtip-position="left"]::after {
-  margin-right: 11px;
+  margin-right: 10px;
 }
 
 [role~="tooltip"][data-microtip-position="left"]:hover::before,
@@ -239,7 +239,7 @@
 }
 
 [role~="tooltip"][data-microtip-position="right"]::after {
-  margin-left: 11px;
+  margin-left: 10px;
 }
 
 [role~="tooltip"][data-microtip-position="right"]:hover::before,
